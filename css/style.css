@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .candidates {
+    display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+  
+  .candidate {
+    flex-basis: 30%;
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      text-align: center;
+  }
+  
+
+  
+  .candidate img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .candidate h2 {
+    margin: 0;
+    color: #333333;
+  }
+  
+  .candidate p {
+    margin: 0;
+    color: #666666;
+  }
+  
+  .vote-btn {
+    margin-top: 10px;
+  }
+  
+  .vote-count {
+    margin-top: 30px;
+  }
+  
+  .navigation {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .next-btn, .prev-btn {
+    margin: 5px;
+  }
+  
